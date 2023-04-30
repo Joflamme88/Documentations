@@ -126,7 +126,7 @@ Notez que ces commandes installeront la version la plus récente de PostgreSQL d
   3. Ouvrez une session en tant qu'utilisateur "postgres" en utilisant la commande suivante dans le terminal Ubuntu :
 
      ```
-     sudo -u postgres psql
+     sudo -i -u postgres psql
      ```
 
   4. Une fois connecté à la console PostgreSQL, tapez la commande ALTER ROLE suivie du nom du rôle et du nouveau mot de passe :
